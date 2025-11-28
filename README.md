@@ -14,8 +14,8 @@ The interactive report for this analysis can be accessed [here]().
 ---
 
 ## 📁 Table of Contents
-- [Problem Statement](#problem-statement)
 - [Aim](#aim)
+- [Dashboard](#dashboard)
 - [Data Overview](#data-overview)  
 - [Methodology](#methodology)
 - [Technologies Used](#technologies-used)
@@ -27,25 +27,25 @@ The interactive report for this analysis can be accessed [here]().
 ---
 
 ## Data Overview
-- **Source:** [Palmora Group emp-data](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmoria%20Group%20emp-data.csv) and [Palmora Group Bonus Rules](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmoria%20Group%20Bonus%20Rules.xlsx)  
-- **Data Points:** Name,	Gender,	Department,	Salary,	Location,	Rating, Bonus rules  
-
+- **Source:** The dataset can be accessed [here]()
+- Raw data has the following columns:
+  1. Outlet Name and Type (e.g., supermarkets, kiosks, restaurants, shops)
+  2. Coordinate of Outlet (Latitude and Longitude)
+  3. Product Type(e.g., Coca-Cola, Pepsi, Bigi, etc.)
+  4. Product Display Type (e.g On shelf/carton In refridgerator/cooler, etc)
+  5. Package Type (e.g., PET bottle, can, glass)
+  6. Product Shelf Presence
+  7. Stock Condition
+- Data Shape (1500, 38) | Data format: Comma Delimited (.csv)  
 ---
 
 ## Methodology
 - Datasets were imported into and cleaned in Microsoft PowerBI as detailed in [Data Cleaning](#data-cleaning).
-- On the emp data, add a conditional column to sort the rating column. Assign number 6 to "Very Good", 5 to "Good", 4 to "Average", 3 to "Poor", 2 to "Very Poor" and 1 to "Not Rated".
-- On the Bonus Rules Dataset, keep the Department column, and unpivot the other columns.
-- On the data model, connect both tables on the Department column.
-- Write several DAX measures to calculate each of the following:
-  * Total Males
-  * Total Females
-  * Total Undisclosed Gender
-  * Average Salary for Males
-  * Average Salary for Females
-  * Employee Bonus (by multiplying their Salaries with the department-rating multipliers in Bonus rules table)
-  * Group Salaries into Bands: those earning less than $90k; $90k - $99,999; $100k - $109,999; and $110k - $120k
-- On the PowerBI Desktop, group analysis into two pages: One showing gender distributions by location, department, etc.; and the other analysing staff salary
+- Write DAX measures to calculate each of the following:
+  * Dominant Brand
+  * Total Brands
+  * Total products
+- Analysis was grouped into three pages on the dashboard: Overview, Stock level analysis, and Product analysis.
 
 ---
 
@@ -57,9 +57,11 @@ The interactive report for this analysis can be accessed [here]().
 ---
 
 ## Data Cleaning  
-- Replaced null values in the Gender column with “Undisclosed Gender”
-- Using filter in Power Query, removed records of staff that has left the company i.e., with no salary (43 records) and staff with NULL Departments (26 records).
-
+- Trim all columns
+- Split columns into tables: Shops, Products, Stock level, Display type, etc.
+- Standardize all column entries, E.g. Change 'Fantai' to 'Fanta'; 'Coke', 'Coca cola', and 'Coca Cola' to 'Coca-cola'
+- Remove invalid entries as they are very few.
+- Merge/join tables into one (on the unique ID), or use modeling to connect all tables.
 ---
 
 ## Analysis and Recommendations
