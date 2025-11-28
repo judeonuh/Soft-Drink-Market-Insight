@@ -20,7 +20,7 @@ The interactive report for this analysis can be accessed [here]().
 - [Methodology](#methodology)
 - [Technologies Used](#technologies-used)
 - [Data Cleaning](#data-cleaning)
-- [Analysis and Recommendations](#analysis-and-recommendations)
+- [Key Findings and Recommendations](#key-findings-and-recommendations)
 - [Overall Recommendations](#overall-recommendations)  
 - [Conclusion](#conclusion)  
 
@@ -64,70 +64,169 @@ The interactive report for this analysis can be accessed [here]().
 - Merge/join tables into one (on the unique ID), or use modeling to connect all tables.
 ---
 
-## Analysis and Recommendations
-### 1. Gender Distribution by Region
-The gender composition across Palmora Group reveals a modest gender imbalance. Out of the total workforce, 430 are males and 406 are females, indicating approximately 51% male dominance. Regionally:
-* Kaduna and Lagos exhibit noticeable male dominance.
-* Abuja displays a commendable gender balance, serving as a positive outlier.
-
-Such imbalances may limit diversity-driven innovation and may indicate barriers to female recruitment or retention in specific regions.
+## Key Findings and Recommendations
+### 1. Coca-Cola was the Dominant Brand
+* Coca-Cola recorded the highest distribution presence and sales volume across all surveyed outlets, outperforming competitors such as Pepsi, Bigi, 7Up, etc.
+* This observation may be due to the following:
+    - Strong distribution network and logistics capabilities.
+    - High brand loyalty built from decades of marketing and sponsorship
+    - Price flexibility.
+* My findings also suggests that retailers may prioritize stocking Coca-Cola to drive revenue and attract customers.
+* Smaller brands may face difficulty gaining shelf space or negotiating pricing.
 
 **Recommendations:**
-* Launch targeted female recruitment campaigns, prioritising Kaduna and Lagos.
-* Conduct exit interviews and employee feedback sessions to understand regional gender-specific challenges.
-* Utilise Abuja as a benchmark for gender inclusivity practices to be replicated across other locations.
+* Competing brands should improve brand visibility through promotions, pricing, and community events.
+* Launch targeted campaigns where Coca-Cola dominance is lowest.
 
----
+### 2. Shops Sold the Highest Number of Products
+* Among outlet types (shops, restaurants, kiosks, supermarkets, etc.), shops recorded the highest product sale frequency. This suggests shops are the most profitable outlet channel for distribution optimisation and marketing focus.
+* Possible reason for the above observation may be because shops offer accessibility within local communities unlike supermarkets or restaurants located in premium or destination areas.
 
-### 2. Gender Distribution by Department
-Gender distribution within departments is disproportionate, with the males dominating most departments, especially Legal, Support, and Accounting departments. However, there was a strong female representation in Services, Business Development, Human Resource, and Research and Development. The analysis also show near gender parity in Engineering and Marketing departments. However, a portion of the workforce still has an undisclosed gender, potentially masking deeper gaps.
+**Recommendations:**
+* Prioritize shops in distribution planning and promotional campaigns.
+* Implement loyalty programs for shop owners.
+* Improve promotional displays within shops.
 
-**Recommendations**:  
-- Improve female representation in most departments, especially in the **Accounting** department.  
-- Engineering department shows good gender balance, however, the undisclosed gender data should be clarified. Review and improve data collection processes to minimise undisclosed gender records.
-- Recognise and reward departments like Marketing and Engineering for maintaining gender balance, reinforcing these as internal best practices.
+### 3. Stock Availability in Outlets: 39.4% Well Stocked, 43.6% Partially Stocked, 0.92% Out of Stock
+* More than half of outlets do not have full product availability. This is possibly due to logistic delays, poor stock forecasting, or unequal product distribution.
+* Low product availability can lead to revenue losses due to unmet demand
 
----
+**Recommendations:**
+* Introduce automated demand forecasting in outlets
+* Improve route planning and delivery frequency where possible
+* Create vendor performance metrics to track availability by location
 
-### 3. Performance Ratings by Gender
-Analysis of performance ratings uncovers encouraging patterns: A higher proportion of Females are represented within the top-performing groups ("Good" and "Very Good" ratings). However, the majority of both Male and Female employees are clustered within the "Average" rating band, suggesting organisational performance stagnation.
+### 4. Stock Condition by Brand: 40.2% Fully Stocked, 28.8% Partially Stocked, 6.2% Out of Stock.
+* While most brands remain well distributed, certain brands face stock-outs and uneven distribution. This guides strategic resource allocation and identifies distribution gaps.
 
-**Recommendations**:  
-- Establish mentorship and leadership pathways to retain and promote high-performing females.
-- Strengthen performance review processes to ensure objectivity and eliminate potential unconscious bias.
-- Introduce targeted training and development programs to uplift average performers and support underperforming staff with tailored improvement plans.
-- Identify the poor performing staff and provide support tailored to their needs. 
+**Recommendations:**
+* Increase delivery frequency for weaker brands
+* Develop minimum stock level agreements with distributors
 
----
-### 4. Salary Structure and Gender Pay Gap
-A notable, albeit modest, gender pay gap persists: Average salary for Males ($74.5K) is slightly higher than that of Females ($72.6K). This was distilled across all regions, showing that Males had higher pay advantage than Females in these regions. Suprisingly, staff (Male and Female) in Lagos had the highest average salary, even though this region had the least number of staff compared to the other regions. This disparity may be a reflection of the high cost of living in Lagos.  
+5. PET Bottles Were the Predominant Packaging Type
+Interpretation
 
-Department-wise, Males had higher average salaries in 9 out of the 12 departments, except in **Marketing, Training and Engineering** departments where Females had slightly higher pay than their Male counterparts. 
+PET bottles are the most widely distributed packaging format.
 
-**Recommendations**:  
-- Commission an independent, data-driven salary equity audit across regions and departments.
-- Design structured, transparent pay frameworks linked to objective performance metrics.
-- Address unjustified gender-based pay gaps while considering regional economic factors, such as Lagos' higher living costs. 
+Importance
 
----
+Indicates packaging preference trends that influence marketing, manufacturing, and pricing.
 
-### 5. Regulatory Compliance Check
-Given the new regulation that mandates all manufacturing companies to pay their staff a minimum annual salary of **$90,000**, the analysis reveals that Palmora is non-compliant. A total of 599 staff (213 in Abuja, 232 in Kaduna, and 154 in Lagos) earn less than $90k.
+Implication
 
-**Recommendation**:
-- Immediately identify affected employees across all regions.
-- Develop a phased salary adjustment plan to achieve full compliance within stipulated timelines.
-- Engage with legal and regulatory experts to ensure all future compensation structures align with evolving policy requirements.  
+Convenience and portability drive consumer preference.
 
----
+PET demand may influence recycling ecosystem development.
 
-## Overall Recommendations
-- **Diversity & Inclusion:** Implement a comprehensive gender diversity and inclusion strategy targeting both recruitment and retention, especially in underrepresented regions and departments.
-- **Data Quality:** Improve employee data collection, specifically for gender disclosure, to enhance the accuracy of diversity reporting.
-- **Performance Development:** Invest in performance improvement initiatives to reduce the concentration of "Average" performers, with particular attention to supporting underperformers.
-- **Pay Equity:** Conduct regular salary audits, link pay to transparent performance metrics, and actively work to close unjustified gender pay gaps.
-- **Regulatory Compliance:** Establish a compliance task force to monitor salary structures and ensure alignment with all current and future industry regulations.
----
+Possible Reasons
+
+Cheaper to produce and transport
+
+Safer and easier to store in small shops
+
+Recommendations
+
+Introduce PET-based promotional bundles
+
+Partner with recycling initiatives for sustainability branding
+
+6. Viju, Fanta, Smoov Were the Least Sold Drinks
+Importance
+
+Shows weak market positioning and identifies opportunities or risk points.
+
+Implication
+
+Shelf space allocation may drop
+
+Vendors may reduce orders leading to reduced visibility
+
+Possible Causes
+
+Weaker marketing campaigns
+
+Narrower consumer audience (e.g., Viju milk targeted age groups)
+
+Packaging or pricing issues
+
+Recommendations
+
+Targeted promo campaigns, sampling, or bundle pricing
+
+Improve visibility with branded displays
+
+7. Most Out-of-Stock Products Used Glass Bottle Packaging
+Interpretation
+
+Higher stock-outs exist among glass bottled beverages.
+
+Importance
+
+Reveals packaging-based supply chain constraints.
+
+Implication
+
+Inefficient transportation leading to breakage
+
+Higher storage and return logistics costs
+
+Possible Reasons
+
+Glass bottles require return-cycle management
+
+Higher logistic restrictions
+
+Recommendations
+
+Increase PET alternatives for high-demand SKUs
+
+Optimize reverse-logistics for glass packaging
+
+8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
+Importance
+
+Perception influences purchasing decisions and stocking confidence.
+
+Implication
+
+Products with perceived short shelf-life face reduced stocking volume.
+
+Possible Causes
+
+Packaging type differences
+
+Past experience with spoilage
+
+Recommendations
+
+Educate retailers using shelf-life training brochures
+
+Improve packaging materials and labeling
+
+9. Display Stands & Shelves/Cartons Were Most Preferred Display Methods
+Interpretation
+
+Retailers prefer structured product presentation for visibility.
+
+Importance
+
+In-store visibility influences impulse purchase rate.
+
+Implication
+
+Manufacturers should invest in branded display stands.
+
+Possible Reasons
+
+More organized, visually appealing layout
+
+Space optimization
+
+Recommendations
+
+Provide branded display stands to high-performing outlets
+
+Sponsorship and placement negotiation programs
 
 ## Conclusion
 This analysis underscores both progress and challenges within Palmora Group's workforce structure. While the organisation demonstrates pockets of gender balance and female excellence in performance, persistent gender pay gaps and departmental disparities remain. Proactive, data-driven actions, combined with a commitment to equity and inclusivity, will position Palmora Group as a model employer, fostering a diverse, high-performing, and compliant workforce.
