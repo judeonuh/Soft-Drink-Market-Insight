@@ -20,8 +20,7 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 - [Methodology](#methodology)
 - [Technologies Used](#technologies-used)
 - [Data Cleaning](#data-cleaning)
-- [Key Findings and Recommendations](#key-findings-and-recommendations)
-- [Overall Recommendations](#overall-recommendations)  
+- [Key Findings and Recommendations](#key-findings-and-recommendations)  
 - [Conclusion](#conclusion)  
 
 ---
