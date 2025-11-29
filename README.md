@@ -11,6 +11,8 @@ The aim of the analysis is to reveal meaningful insights from the data and tell 
 ## Dashboard
 The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiYjkxNzEyYjItY2Y2OC00Yjk2LWE0NzktNjRmNGE1NTk3ODU3IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9).  
 
+![dashboard](dashboard.png)  
+
 ---
 
 ## 📁 Table of Contents
@@ -26,7 +28,7 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 ---
 
 ## Data Overview
-- **Source:** The dataset can be accessed [here]()
+- **Source:** The dataset can be accessed [here](Product_Visibility_Challenge_Data.csv)
 - Raw data has the following columns:
   1. Outlet Name and Type (e.g., supermarkets, kiosks, restaurants, shops)
   2. Coordinate of Outlet (Latitude and Longitude)
@@ -131,6 +133,11 @@ PET bottles (50cl/1L) are the most widely distributed packaging style, suggestin
 **Recommendations**
 * Increase PET alternatives for high-demand SKUs
 * Optimize reverse-logistics for glass packaging
+
+---
+
+![charts](bar_charts.png)
+
 
 ### 8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
 * Most shop owners believe Coca-cola (364) and Pepsi (166) had the highest shelf-life
