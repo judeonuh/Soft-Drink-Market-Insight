@@ -9,9 +9,9 @@ The aim of the analysis is to reveal meaningful insights from the data and tell 
 ---
 
 ## Dashboard
-The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiYjkxNzEyYjItY2Y2OC00Yjk2LWE0NzktNjRmNGE1NTk3ODU3IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9).  
+The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiNGI2OWUzNGItMTQ3Zi00NzFlLTg5ODctZGJiODJlMDQ4ZGQ0IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9).  
 
-![dashboard](dashboard.png)  
+![dashboard](dashboard2.png)  
 
 ---
 
