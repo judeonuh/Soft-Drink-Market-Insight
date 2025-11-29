@@ -9,7 +9,7 @@ The aim of the analysis is to reveal meaningful insights from the data and tell 
 ---
 
 ## Dashboard
-The interactive report for this analysis can be accessed [here]().  
+The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiYjkxNzEyYjItY2Y2OC00Yjk2LWE0NzktNjRmNGE1NTk3ODU3IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9).  
 
 ---
 
@@ -103,130 +103,52 @@ The interactive report for this analysis can be accessed [here]().
 * Increase delivery frequency for weaker brands
 * Develop minimum stock level agreements with distributors
 
-5. PET Bottles Were the Predominant Packaging Type
-Interpretation
+### 5. PET Bottles Were the Predominant Packaging Type
+PET bottles (50cl/1L) are the most widely distributed packaging style, suggesting that convenience and portability drive consumer preference. Also, they seem to be safer and easierto store in small shops
 
-PET bottles are the most widely distributed packaging format.
+**Recommendations**
+* Introduce PET-based promotional bundles
+* Partner with recycling initiatives for sustainability branding
 
-Importance
+### 6. Viju, Fanta, Smoov Were the Least Sold Drinks
+* This shows weak market positioning and identifies opportunities or risk points.
+* By implication, this could lead to reduced shelf space allocation and reduced orders.
+* Low product visibility may be due to:
+    - Weaker marketing campaigns
+    - Narrower consumer audience (e.g., Viju milk targeted age groups)
+    - Packaging or pricing issues
 
-Indicates packaging preference trends that influence marketing, manufacturing, and pricing.
+**Recommendations**
+* Targeted promo campaigns, sampling, or bundle pricing
+* Improve visibility with branded displays
 
-Implication
+### 7. Most Out-of-Stock Products Used Glass Bottle Packaging
+* Higher stock-outs exist among glass-bottled beverages.
+* This observation suggests:
+  - Inefficient transportation leading to breakage
+  - Higher storage and return logistics costs
+  - Possible packaging-based supply chain constraints
 
-Convenience and portability drive consumer preference.
+**Recommendations**
+* Increase PET alternatives for high-demand SKUs
+* Optimize reverse-logistics for glass packaging
 
-PET demand may influence recycling ecosystem development.
+### 8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
+* Most shop owners believe Coca-cola (364) and Pepsi (166) had the highest shelf-life
+* Perception influences purchasing decisions and stocking confidence.
+* Products with perceived short shelf-life face reduced stocking volume.
 
-Possible Reasons
+**Recommendations**
+* Improve packaging materials and labeling
+* Educate retailers using shelf-life training brochures
 
-Cheaper to produce and transport
+### 9. Display Stands & Shelves/Cartons Were Most Preferred Display Methods
+* Retailers prefer structured product presentation for visibility, probably due to their more organised and visually appealing layout, allowing for more space optimization
+* In-store visibility influences impulse purchase rate.
+* The preference for display stands suggests that manufacturers could invest in branded display stands.
 
-Safer and easier to store in small shops
-
-Recommendations
-
-Introduce PET-based promotional bundles
-
-Partner with recycling initiatives for sustainability branding
-
-6. Viju, Fanta, Smoov Were the Least Sold Drinks
-Importance
-
-Shows weak market positioning and identifies opportunities or risk points.
-
-Implication
-
-Shelf space allocation may drop
-
-Vendors may reduce orders leading to reduced visibility
-
-Possible Causes
-
-Weaker marketing campaigns
-
-Narrower consumer audience (e.g., Viju milk targeted age groups)
-
-Packaging or pricing issues
-
-Recommendations
-
-Targeted promo campaigns, sampling, or bundle pricing
-
-Improve visibility with branded displays
-
-7. Most Out-of-Stock Products Used Glass Bottle Packaging
-Interpretation
-
-Higher stock-outs exist among glass bottled beverages.
-
-Importance
-
-Reveals packaging-based supply chain constraints.
-
-Implication
-
-Inefficient transportation leading to breakage
-
-Higher storage and return logistics costs
-
-Possible Reasons
-
-Glass bottles require return-cycle management
-
-Higher logistic restrictions
-
-Recommendations
-
-Increase PET alternatives for high-demand SKUs
-
-Optimize reverse-logistics for glass packaging
-
-8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
-Importance
-
-Perception influences purchasing decisions and stocking confidence.
-
-Implication
-
-Products with perceived short shelf-life face reduced stocking volume.
-
-Possible Causes
-
-Packaging type differences
-
-Past experience with spoilage
-
-Recommendations
-
-Educate retailers using shelf-life training brochures
-
-Improve packaging materials and labeling
-
-9. Display Stands & Shelves/Cartons Were Most Preferred Display Methods
-Interpretation
-
-Retailers prefer structured product presentation for visibility.
-
-Importance
-
-In-store visibility influences impulse purchase rate.
-
-Implication
-
-Manufacturers should invest in branded display stands.
-
-Possible Reasons
-
-More organized, visually appealing layout
-
-Space optimization
-
-Recommendations
-
-Provide branded display stands to high-performing outlets
-
-Sponsorship and placement negotiation programs
+**Recommendations**
+* Provide branded display stands to high-performing outlets
 
 ## Conclusion
-This analysis underscores both progress and challenges within Palmora Group's workforce structure. While the organisation demonstrates pockets of gender balance and female excellence in performance, persistent gender pay gaps and departmental disparities remain. Proactive, data-driven actions, combined with a commitment to equity and inclusivity, will position Palmora Group as a model employer, fostering a diverse, high-performing, and compliant workforce.
+The soft drink market analysis in Lagos reveals that Coca-Cola is the dominant brand, benefiting from stronger distribution, visibility, and consumer trust. Shops serve as the primary sales channel, highlighting the importance of neighborhood retail outlets over larger supermarkets. Some brands like Viju, Fanta, and Smoov show low performance, possibly due to weaker distribution or reduced customer preference. While consumer perception strongly favors Coca-Cola and Pepsi for longer shelf life, display stands and shelves play a critical role in sales visibility. Overall, the results emphasise the need for better supply chain management, targeted retail partnerships, improved product visibility, and strategic packaging decisions to optimise availability, satisfy consumers, and strengthen market competitiveness in Lagos State.
