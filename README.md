@@ -1,5 +1,5 @@
 # Soft Drink Market Insight
-This is an analysis of a real-world survey data from Alimosho Local Government Area, Lagos, Nigeria.
+In a survey of 1,500 outlets across Alimosho LGA, Coca-Cola dominated distribution, shops were the primary sales channel, and over 60% of outlets were partially or fully under-stocked, representing a significant revenue opportunity. This project presents the analysis of the real-world survey data from Alimosho Local Government Area, Lagos, Nigeria.
 
 ---
 
@@ -31,9 +31,9 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 - **Source:** The dataset can be accessed [here](Product_Visibility_Challenge_Data.csv)
 - Raw data has the following columns:
   1. Outlet Name and Type (e.g., supermarkets, kiosks, restaurants, shops)
-  2. Coordinate of Outlet (Latitude and Longitude)
+  2. Coordinates of Outlet (Latitude and Longitude)
   3. Product Type(e.g., Coca-Cola, Pepsi, Bigi, etc.)
-  4. Product Display Type (e.g On shelf/carton In refridgerator/cooler, etc)
+  4. Product Display Type (e.g On shelf/carton in refrigerator/cooler, etc.)
   5. Package Type (e.g., PET bottle, can, glass)
   6. Product Shelf Presence
   7. Stock Condition
@@ -41,7 +41,7 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 ---
 
 ## Methodology
-- Datasets were imported into and cleaned in Microsoft PowerBI as detailed in [Data Cleaning](#data-cleaning).
+- Datasets were imported into and cleaned in Microsoft Power BI as detailed in [Data Cleaning](#data-cleaning).
 - Write DAX measures to calculate each of the following:
   * Dominant Brand
   * Total Brands
@@ -50,19 +50,22 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 
 ---
 
-## Technologies Used
+## Skills Demonstrated
 - Power BI  
 - DAX  
-- Git & GitHub  
+- Power Query
+- Survey data analysis
+- FMCG market analysis
+- Data cleaning  
 
 ---
 
 ## Data Cleaning  
-- Trim all columns
+- Trimmed all columns
 - Split columns into tables: Shops, Products, Stock level, Display type, etc.
-- Standardize all column entries, E.g. Change 'Fantai' to 'Fanta'; 'Coke', 'Coca cola', and 'Coca Cola' to 'Coca-cola'
-- Remove invalid entries as they are very few.
-- Merge/join tables into one (on the unique ID), or use modeling to connect all tables.
+- Standardised all column entries, e.g., change 'Fantai' to 'Fanta'; 'Coke', 'Coca cola', and 'Coca Cola' to 'Coca-cola'
+- Removed invalid entries, as there are very few.
+- Used modelling to connect all tables.
 ---
 
 ## Key Findings and Recommendations
@@ -72,19 +75,19 @@ The interactive report for this analysis can be accessed [here](https://app.powe
     - Strong distribution network and logistics capabilities.
     - High brand loyalty built from decades of marketing and sponsorship
     - Price flexibility.
-* My findings also suggests that retailers may prioritize stocking Coca-Cola to drive revenue and attract customers.
+* My findings also suggest that retailers may prioritise stocking Coca-Cola to drive revenue and attract customers.
 * Smaller brands may face difficulty gaining shelf space or negotiating pricing.
 
 **Recommendations:**
 * Competing brands should improve brand visibility through promotions, pricing, and community events.
-* Launch targeted campaigns where Coca-Cola dominance is lowest.
+* Launch targeted campaigns where Coca-Cola's dominance is lowest.
 
 ### 2. Shops Sold the Highest Number of Products
 * Among outlet types (shops, restaurants, kiosks, supermarkets, etc.), shops recorded the highest product sale frequency. This suggests shops are the most profitable outlet channel for distribution optimisation and marketing focus.
-* Possible reason for the above observation may be because shops offer accessibility within local communities unlike supermarkets or restaurants located in premium or destination areas.
+* Possible reason for the above observation may be that shops offer accessibility within local communities, unlike supermarkets or restaurants located in premium or destination areas.
 
 **Recommendations:**
-* Prioritize shops in distribution planning and promotional campaigns.
+* Prioritise shops in distribution planning and promotional campaigns.
 * Implement loyalty programs for shop owners.
 * Improve promotional displays within shops.
 
@@ -105,13 +108,13 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 * Develop minimum stock level agreements with distributors
 
 ### 5. PET Bottles Were the Predominant Packaging Type
-PET bottles (50cl/1L) are the most widely distributed packaging style, suggesting that convenience and portability drive consumer preference. Also, they seem to be safer and easierto store in small shops
+PET bottles (50cl/1L) are the most widely distributed packaging style, suggesting that convenience and portability drive consumer preference. Also, they seem to be safer and easier to store in small shops
 
 **Recommendations**
 * Introduce PET-based promotional bundles
 * Partner with recycling initiatives for sustainability branding
 
-### 6. Viju, Fanta, Smoov Were the Least Sold Drinks
+### 6. Viju, Fanta, and Smoov Were the Least Sold Drinks
 * This shows weak market positioning and identifies opportunities or risk points.
 * By implication, this could lead to reduced shelf space allocation and reduced orders.
 * Low product visibility may be due to:
@@ -132,7 +135,7 @@ PET bottles (50cl/1L) are the most widely distributed packaging style, suggestin
 
 **Recommendations**
 * Increase PET alternatives for high-demand SKUs
-* Optimize reverse-logistics for glass packaging
+* Optimise reverse logistics for glass packaging
 
 ---
 
@@ -140,16 +143,16 @@ PET bottles (50cl/1L) are the most widely distributed packaging style, suggestin
 
 
 ### 8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
-* Most shop owners believe Coca-cola (364) and Pepsi (166) had the highest shelf-life
+* Most shop owners believe Coca-Cola (364) and Pepsi (166) have the highest shelf-life
 * Perception influences purchasing decisions and stocking confidence.
 * Products with perceived short shelf-life face reduced stocking volume.
 
 **Recommendations**
-* Improve packaging materials and labeling
+* Improve packaging materials and labelling
 * Educate retailers using shelf-life training brochures
 
-### 9. Display Stands & Shelves/Cartons Were Most Preferred Display Methods
-* Retailers prefer structured product presentation for visibility, probably due to their more organised and visually appealing layout, allowing for more space optimization
+### 9. Display Stands & Shelves/Cartons Were the Most Preferred Display Methods
+* Retailers prefer structured product presentation for visibility, probably due to their more organised and visually appealing layout, allowing for more space optimisation
 * In-store visibility influences impulse purchase rate.
 * The preference for display stands suggests that manufacturers could invest in branded display stands.
 
@@ -157,4 +160,4 @@ PET bottles (50cl/1L) are the most widely distributed packaging style, suggestin
 * Provide branded display stands to high-performing outlets
 
 ## Conclusion
-The soft drink market analysis in Lagos reveals that Coca-Cola is the dominant brand, benefiting from stronger distribution, visibility, and consumer trust. Shops serve as the primary sales channel, highlighting the importance of neighborhood retail outlets over larger supermarkets. Some brands like Viju, Fanta, and Smoov show low performance, possibly due to weaker distribution or reduced customer preference. While consumer perception strongly favors Coca-Cola and Pepsi for longer shelf life, display stands and shelves play a critical role in sales visibility. Overall, the results emphasise the need for better supply chain management, targeted retail partnerships, improved product visibility, and strategic packaging decisions to optimise availability, satisfy consumers, and strengthen market competitiveness in Lagos State.
+The soft drink market analysis in Lagos reveals that Coca-Cola is the dominant brand, benefiting from stronger distribution, visibility, and consumer trust. Shops serve as the primary sales channel, highlighting the importance of neighbourhood retail outlets over larger supermarkets. Some brands like Viju, Fanta, and Smoov show low performance, possibly due to weaker distribution or reduced customer preference. While consumer perception strongly favours Coca-Cola and Pepsi for longer shelf life, display stands and shelves play a critical role in sales visibility. Overall, the results emphasise the need for better supply chain management, targeted retail partnerships, improved product visibility, and strategic packaging decisions to optimise availability, satisfy consumers, and strengthen market competitiveness in Lagos State.
