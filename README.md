@@ -4,14 +4,14 @@ In a survey of 1,500 outlets across Alimosho LGA, Coca-Cola dominated distributi
 ---
 
 ## Aim
-The aim of the analysis is to reveal meaningful insights from the data and tell a clear story about soft drink distribution, brand dominance, and consumer trends.
+The analysis aims to reveal meaningful insights from the data and tell a clear story about soft drink distribution, brand dominance, and consumer trends.
 
 ---
 
 ## Dashboard
 The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiNGI2OWUzNGItMTQ3Zi00NzFlLTg5ODctZGJiODJlMDQ4ZGQ0IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9).  
 
-![dashboard](dashboard2.png)  
+![dashboard](img/dashboard2.png)  
 
 ---
 
@@ -28,7 +28,7 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 ---
 
 ## Data Overview
-- **Source:** The dataset can be accessed [here](Product_Visibility_Challenge_Data.csv)
+- **Source:** The dataset can be accessed [here](data/Product_Visibility_Challenge_Data.csv)
 - Raw data has the following columns:
   1. Outlet Name and Type (e.g., supermarkets, kiosks, restaurants, shops)
   2. Coordinates of Outlet (Latitude and Longitude)
@@ -84,7 +84,7 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 
 ### 2. Shops Sold the Highest Number of Products
 * Among outlet types (shops, restaurants, kiosks, supermarkets, etc.), shops recorded the highest product sale frequency. This suggests shops are the most profitable outlet channel for distribution optimisation and marketing focus.
-* Possible reason for the above observation may be that shops offer accessibility within local communities, unlike supermarkets or restaurants located in premium or destination areas.
+* A possible reason for the above observation may be that shops offer accessibility within local communities, unlike supermarkets or restaurants located in premium or destination areas.
 
 **Recommendations:**
 * Prioritise shops in distribution planning and promotional campaigns.
@@ -139,7 +139,7 @@ PET bottles (50cl/1L) are the most widely distributed packaging style, suggestin
 
 ---
 
-![charts](bar_charts.png)
+![charts](img/bar_charts.png)
 
 
 ### 8. Perceived Shelf-Life: Coca-Cola & Pepsi Highest; Maltina, Pop, Pop Cola Lowest
