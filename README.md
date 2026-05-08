@@ -19,9 +19,9 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 - [Aim](#aim)
 - [Dashboard](#dashboard)
 - [Data Overview](#data-overview)  
-- [Methodology](#methodology)
-- [Technologies Used](#technologies-used)
-- [Data Cleaning](#data-cleaning)
+- [Skills Demonstrated](#skills-demonstrated)  
+- [Methodology](#methodology)  
+- [Data Cleaning](#data-cleaning)  
 - [Key Findings and Recommendations](#key-findings-and-recommendations)  
 - [Conclusion](#conclusion)  
 
@@ -38,15 +38,6 @@ The interactive report for this analysis can be accessed [here](https://app.powe
   6. Product Shelf Presence
   7. Stock Condition
 - Data Shape (1500, 38) | Data format: Comma Delimited (.csv)  
----
-
-## Methodology
-- Datasets were imported into and cleaned in Microsoft Power BI as detailed in [Data Cleaning](#data-cleaning).
-- Write DAX measures to calculate each of the following:
-  * Dominant Brand
-  * Total Brands
-  * Total products
-- Analysis was grouped into three pages on the dashboard: Overview, Stock level analysis, and Product analysis.
 
 ---
 
@@ -57,6 +48,16 @@ The interactive report for this analysis can be accessed [here](https://app.powe
 - Survey data analysis
 - FMCG market analysis
 - Data cleaning  
+
+---
+
+## Methodology
+- Datasets were imported into and cleaned in Microsoft Power BI as detailed in [Data Cleaning](#data-cleaning).
+- Write DAX measures to calculate each of the following:
+  * Dominant Brand
+  * Total Brands
+  * Total products
+- Analysis was grouped into three pages on the dashboard: Overview, Stock level analysis, and Product analysis.
 
 ---
 
